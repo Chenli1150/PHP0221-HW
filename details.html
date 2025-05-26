@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>活動流程與報名表</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            background-color: #eef2f7;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #222;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #999;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        a.back {
+            display: inline-block;
+            margin-top: 30px;
+            color: #0078D7;
+            text-decoration: none;
+        }
+
+        a.back:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>迎新活動流程（兩天一夜）</h1>
+        <table>
+            <tr>
+                <th>時間</th>
+                <th>活動內容</th>
+            </tr>
+            <tr>
+                <td colspan="2"><strong>第一天</strong></td>
+            </tr>
+            <tr>
+                <td>09:00 - 09:30</td>
+                <td>報到與領取資料</td>
+            </tr>
+            <tr>
+                <td>09:30 - 10:30</td>
+                <td>迎新說明與破冰遊戲</td>
+            </tr>
+            <tr>
+                <td>10:30 - 12:00</td>
+                <td>校園導覽</td>
+            </tr>
+            <tr>
+                <td>12:00 - 13:30</td>
+                <td>午餐與休息</td>
+            </tr>
+            <tr>
+                <td>13:30 - 16:00</td>
+                <td>分組挑戰與團康遊戲</td>
+            </tr>
+            <tr>
+                <td>16:00 - 17:30</td>
+                <td>小組分享與交流</td>
+            </tr>
+            <tr>
+                <td>18:00 - 19:30</td>
+                <td>晚餐與才藝表演</td>
+            </tr>
+            <tr>
+                <td>20:00 - 21:30</td>
+                <td>營火晚會</td>
+            </tr>
+            <tr>
+                <td>22:00</td>
+                <td>就寢</td>
+            </tr>
+            <tr>
+                <td colspan="2"><strong>第二天</strong></td>
+            </tr>
+            <tr>
+                <td>07:00 - 08:00</td>
+                <td>起床與早餐</td>
+            </tr>
+            <tr>
+                <td>08:00 - 09:30</td>
+                <td>晨間體能活動</td>
+            </tr>
+            <tr>
+                <td>09:30 - 11:00</td>
+                <td>經驗分享與問答時間</td>
+            </tr>
+            <tr>
+                <td>11:00 - 12:00</td>
+                <td>成果發表與頒獎</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>結束與賦歸</td>
+            </tr>
+        </table>
+
+        <h2>活動報名表</h2>
+        <form action="#" method="post">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="note">備註：</label>
+            <textarea id="note" name="note" rows="4"></textarea>
+
+            <button type="submit">送出報名</button>
+        </form>
+
+        <a class="back" href="index.html">← 返回介紹頁</a>
+    </div>
+</body>
+</html>
